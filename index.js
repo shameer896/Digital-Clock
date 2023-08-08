@@ -1,5 +1,6 @@
-var d = new Date()
 let div = document.querySelector("#dv")
+function time(){
+var d = new Date()
 let h=d.getHours()
 let m=d.getMinutes()
 let s=d.getSeconds()
@@ -12,4 +13,5 @@ else
 {
     div.textContent = (h>9?"":"0")+h + ":" + (m>9?"":"0")+m + ":" +(s>9?"":"0")+s+" am"
 }
-setTimeout(function(){location.reload()},1000)
+}
+setInterval(time,1000)
