@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+
+}
+div{
+    margin-top: 25vh;;
+    width: 100%;
+    /* background-color: darkgray; */
+    text-align: center;
+    font-size: 18vw;
+    color: azure;
+    box-sizing: border-box;
+}
